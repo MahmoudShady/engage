@@ -1,0 +1,648 @@
+body
+{
+    padding:0;
+    margin:0;
+}
+*
+{
+    font-family:'Open Sans',arial;
+}
+.clr
+{
+    clear:both;
+}
+/* start nav */
+.home
+{
+  background: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)
+  ),
+    url("../images/business-2.jpg");
+  background-size: cover; 
+  padding-bottom: 70px
+}
+.home .nav{
+  overflow: hidden;
+  background-color:transparent;
+  width:100%;
+}
+.home .nav ul .logo , .btn , .ol
+{
+  float:right;
+  list-style: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+.home .nav ul .logo
+{
+  float: left;
+  
+}
+.home .nav ul
+{
+  padding:20px 100px 20px 50px;
+}
+.home .nav ul .logo img
+{
+  height:35px;
+  width:140px;
+}
+.home .nav ul .ol , .btn
+{
+  float:right;
+  
+}
+.home .nav ul .ol a
+{
+  color:white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.home .nav ul .btn button
+{
+    background-color: white;
+    color:#3B3B3B;
+    height:40px;
+    width:100px;
+    border-radius: 2px;
+    font-weight: bold;
+    border:1px white ;
+    position: relative;
+    bottom:10px;
+}
+
+
+/* end nav*/
+/* start second part in home*/
+.home .shome
+{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    margin:300px 0;
+}
+.home .shome h3
+{
+    font-size:20px;
+    font-weight: 100;
+}
+.home .shome p
+{
+    font-size:50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:#E2E3E5;
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.home .shome button
+{
+    background-color: #4CAF50;
+    color:white;
+    padding:20px 35px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    position: relative;
+    top:50px;
+    border-radius: 4px;
+    font-weight: 600;
+    border:1px white ;
+}
+.home .shome button:hover
+{
+    background-color: white;
+    color:#373737;
+}
+/* end second part in home*/
+/* start op div*/
+.op
+{
+    padding-right:50px;
+    overflow: hidden;
+}
+.op div
+{
+   width:33.33333%;
+    float:left;
+    margin-top:50px; 
+    margin-bottom: 50px;
+}
+
+.op div .fnt
+{
+    position: relative;
+    top:25px;
+}
+.op div h4
+{
+    padding-left:10px;
+    font-size: 16px;
+    color:#373737;
+    width:400px;
+    font-weight:400;
+}
+.op div p
+{
+    color:rgb(105, 100, 100);
+    width: 300px;
+    line-height: 1.5em;
+}
+.op div i
+{
+    color:#5EB762;
+    float: right;
+    clear: both;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+
+/* end op div*/
+/* start our services */
+.ourServices
+{
+    background-color: #F8F8F8;
+    margin-left:50px;
+    margin-right: 50px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.ourServices .fdiv
+{
+    padding-top:75px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.ourServices .fdiv h4
+{
+    color: #303030;
+    font-size: 36px;
+    font-family:"Open Sans";
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.ourServices .fdiv p
+{
+    color:#8D8D8D;
+    font-size: 23px;
+}
+.ourServices .sdiv
+{
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+.ourServices .sdiv div
+{
+    float:left;
+    height:500px;
+    width:30%;
+    margin-left:2.5%;
+    background-color: white;
+}
+.ourServices .sdiv  img
+{
+    height: 250px;
+    width: 100%;
+}
+.ourServices .sdiv h4
+{
+    font-size: 18px;
+    color:#303030;
+    font-weight: 500;
+}
+.ourServices .sdiv div h4,p,a
+{
+    padding-left:10px;
+}
+.ourServices .sdiv p
+{
+    color:#979797;
+    
+}
+.ourServices .sdiv a
+{
+    text-decoration: none;
+    color:#979797;
+    position: relative;
+    top:40px;
+}
+.ourServices .sdiv a i
+{
+    padding-left:5px;
+}
+.ourServices .sdiv a:hover
+{
+    color:#54B358;
+}
+/* end our services */
+/* start our secret */
+.ourSecret
+{
+    margin:50px;
+    overflow: hidden;
+    padding-top:50px;
+}
+.ourSecret .fdivourSecret ,.sdivourSecret
+{
+    float:left;
+    overflow: hidden;
+    width:49%;
+}
+.ourSecret .fdivourSecret
+{
+    padding-bottom: 50px;
+    padding-top:100px;
+    line-height: 10px;
+}
+.ourSecret .fdivourSecret h4
+{
+  color:#343434;
+  font-size: 30px;
+  font-weight: 400;
+}
+.ourSecret .fdivourSecret p
+{
+    padding-right: 50px;
+    line-height: 25px;
+    color:#737373;
+}
+.ourSecret .fdivourSecret p i
+{
+    color:#54B358;
+    margin:10px;
+}
+.ourSecret .fdivourSecret button 
+{
+    background-color: #54B358;
+    color:white;
+    border-radius: 4px;
+    border: 1px solid white;
+    height:50px;
+    width:120px;
+    font-weight: bold;
+    font-size:12px;
+    margin-left:20px;
+    position: relative;
+    top:20px;
+}
+
+/* end our secret */
+/* start  developers div */
+.devs
+{
+    background-color: #F8F8F8;
+    margin-left: 50px;
+    margin-right:50px;
+}
+.devs .icon
+{
+    color:#54B358;
+    margin-top:50px;
+    font-size: 50px;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.devs .sdevs div
+{
+    width:32%;
+    overflow: hidden;
+    float:left;
+    padding-bottom: 20px;
+    margin-left: 15px;
+}
+.devs .sdevs div .para
+{
+    background-color: white;
+    width:80%;
+    padding: 30px;
+    font-size: 16px;
+    color:#6A6A6A;
+
+}
+.devs .sdevs div .para2
+{
+    padding-right: 20px;
+}
+.devs .sdevs div .company
+{
+    padding-right: 20px;
+    color:#949494;
+}
+.devs .sicons a
+{
+    color:#8A8A8A;
+}
+.devs .sicons
+{
+    color:#8A8A8A;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 100px;
+    padding-left:0;
+    padding-top:0;
+}
+.devs .sicons :hover
+{
+    color:#54B358;
+}
+/* end developers div */
+/* start charts div */
+.chartdiv
+{
+    margin:50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.chartdiv div
+{
+    width:23%;
+    float:left;
+    padding-left: 10px;
+    text-align: center;
+}
+.chartdiv div i 
+{
+    font-size: 40px;
+    color:#8A8A8A;
+}
+.chartdiv div i:hover 
+{
+    color: #4CAF50;  
+}
+.chartdiv div .num
+{
+    color:#404040;
+    font-size: 50px;
+}
+.chartdiv div p
+{
+    color:#8A8A8A;
+}
+/* end charts div */
+/* start addvalue div */
+.addValue
+{
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+    ),url("../images/full-2.jpg");
+    background-size: cover;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding-top:100px;
+    padding-bottom:150px;
+    color:white;
+}
+.addValue h4
+{
+    font-size: 30px;
+}
+.addValue p
+{
+    margin-left:300px;
+    margin-right:300px;
+    font-size: 20px;
+    color:#E2E3E5;
+}
+.addValue button
+{
+    background-color: #54B358;
+    color:white;
+    border-radius: 4px;
+    border: 1px solid #54B358;
+    height:45px;
+    width:125px;
+    font-weight: bold;
+    font-size:12px;
+    position: relative;
+    top:40px;
+}
+/* end addvalue div */
+/* start otherservices div */
+.otherServices
+{
+    margin:100px 50px;
+    overflow: hidden;
+}
+.otherServices .otherServiceshead
+{
+    text-align: center;
+}
+.otherServices .otherServiceshead h3
+{
+    color:#404040;
+    font-size:36px;
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+}
+.otherServices .otherServiceshead p
+{
+    color:#8A8A8A;
+    font-size: 21px;
+}
+.otherServices .otherServicesBody .osmain
+{
+    width:30%;
+    float:left;
+    overflow: hidden;
+    margin-left:2.5%;
+}
+.otherServices .otherServicesBody .osmain div
+{
+    margin-top:70px;
+    margin-bottom: 50px;
+}
+.otherServices .otherServicesBody .osmain div h4
+{
+    color:#404040;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.otherServices .otherServicesBody .osmain div p
+{
+    color:#8A8A8A;
+    line-height: 20px;
+}
+/* end otherservices div */
+/* start brand div */
+.branddiv
+{
+    overflow: hidden;
+    background-color: #F8F8F8;
+}
+.branddiv div
+{
+    padding-top:100px;
+    padding-bottom: 100px;
+    float:left;
+    text-align: center;
+    margin-left:100px;
+}
+.branddiv div img 
+{
+    width:150px;
+    opacity: 0.3;
+}
+.branddiv div img:hover
+{
+    opacity:0.8;
+}
+/* end brand div */
+/* start contact us*/
+.contactdiv
+{
+    background-color:#4CAF50;
+    overflow: hidden;
+}
+.contactdiv .fcontactdiv , .scontactdiv
+{
+    float:left;
+    margin:50px ;
+}
+.contactdiv .fcontactdiv
+{
+    color:white;
+}
+.contactdiv .fcontactdiv h3
+{
+    font-size:30px;  
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    margin:0;
+    padding-left:15px;
+   
+}
+.contactdiv .fcontactdiv p
+{
+    font-size: 20px;
+    color:white;
+}
+
+.contactdiv .scontactdiv button
+{
+    margin-left:600px;
+    background-color: white;
+    color:#404040;
+    border-radius: 4px;
+    border: 1px solid #54B358;
+    height:70px;
+    width:150px;
+    font-weight: bold;
+    font-size:12px;
+    margin-top:30px;
+}
+.contactdiv .scontactdiv button:hover
+{
+    background-color: #333333;
+    color:white;
+}
+/* end contact us*/
+/* start about div*/
+.aboutdiv
+{
+    margin:auto;
+    background-color: #1F2021;
+    line-height: 30px;
+    padding: 30px 50px;
+    overflow: auto;
+}
+.aboutdiv div , .about
+{
+    float:left;
+    width: 23%;
+}
+.aboutdiv div h4
+{
+    font-size:18px;
+    color:#FFFFFF;
+    padding-left: 40px;
+    font-weight: 400;
+}
+.aboutdiv div ul , p
+{
+    color:#474D56;
+    list-style: none;
+    font-size: 14px;
+}
+.aboutdiv .about h4
+{
+   font-family: "Open Sans", arial;
+   font-size: 15px;
+}
+.aboutdiv .about p
+{
+    padding-left:30px;
+}
+.aboutdiv div ul li a
+{
+    text-decoration: none;
+    color:#41464D;
+}
+.aboutdiv div ul li a:hover
+{
+    color:#3A6195;
+}
+/* end about div*/
+/* start  foot div*/
+.foot 
+{
+    background-color: #191919;
+    color:#58606b;
+    overflow: hidden;
+
+}
+.foot div
+{
+    float:left;
+    width:48%;
+}
+.foot .copy
+{
+    float: left;
+    padding:10px 0 10px 50px;
+    font-size: 13px;
+}
+.foot div ul
+{
+    float:right; 
+    padding-top: 5px;
+    margin-right:50px;
+    overflow: hidden;
+}
+.foot div ul li
+{
+    list-style: none;
+    float:right;
+    margin-left: 20px;
+}
+.foot div ul li .fab
+{
+    font-size: 23px;
+    color:#1F2021;
+    border-radius: 50%;
+}
+.foot div ul li .fa-facebook-square:hover
+{
+    color:#4267B2;
+}
+.foot div ul li .fa-google:hover
+{
+    color:#FF0000;
+}
+.foot div ul li .fa-linkedin:hover
+{
+    color:#007BB5;
+}
+.foot div ul li .fa-twitter-square:hover
+{
+    color:#00ACED;
+}
+
+
+
+/* end  foot div*/
